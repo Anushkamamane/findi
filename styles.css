@@ -1,0 +1,126 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #d6e6ff, #f7d1e5);
+  color: #333;
+}
+
+header {
+  background: #6200ea;
+  color: white;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.search-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+header input {
+  padding: 0.8rem;
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header button {
+  padding: 0.8rem 1.5rem;
+  background: #ffea00;
+  color: #6200ea;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+header button:hover {
+  background: #ffd600;
+}
+
+main {
+  padding: 2rem;
+}
+
+#productDisplay, #arVrPreview {
+  margin: 1rem 0;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#productList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.productCard {
+  padding: 1rem;
+  background: #f3faff;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.productCard h3 {
+  margin-bottom: 0.5rem;
+  color: #6200ea;
+}
+
+.productCard p {
+  font-weight: bold;
+  color: #333;
+}
+
+#arContainer {
+  padding: 2rem;
+  background: #f3f3f3;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+#arButton {
+  padding: 0.8rem 1.5rem;
+  margin-top: 1rem;
+  background: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#arButton:hover {
+  background: #4a00c2;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #6200ea;
+  color: white;
+  font-size: 0.9rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
